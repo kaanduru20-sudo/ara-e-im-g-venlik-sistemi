@@ -12,23 +12,44 @@
         display: grid;
         place-items: center;
         font-family: Arial, sans-serif;
-        background: #0f172a;
+        background: linear-gradient(135deg, #020817, #0b1220 50%, #111827);
         color: #e2e8f0;
       }
       .box {
+        background: rgba(15, 23, 42, 0.82);
+        border: 1px solid rgba(148, 163, 184, 0.25);
+        border-radius: 16px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+        padding: 32px 40px;
         text-align: center;
-        padding: 32px;
-        border-radius: 12px;
-        background: rgba(15, 23, 42, 0.9);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        max-width: 720px;
+      }
+      h1 {
+        margin: 0 0 12px;
+        color: #7dd3fc;
+        letter-spacing: 1px;
+      }
+      p {
+        margin: 10px 0;
+        color: #dbeafe;
       }
       a {
         color: #7dd3fc;
         text-decoration: none;
-        font-weight: 600;
+        font-weight: 700;
       }
       a:hover {
         text-decoration: underline;
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 10px 16px;
+        background: #0ea5e9;
+        color: #03131d;
+        border-radius: 10px;
+        font-weight: 800;
+        text-decoration: none;
       }
     </style>
   </head>
@@ -36,7 +57,8 @@
     <div class="box">
       <h1>Araç Eğim Güvenlik Sistemi</h1>
       <p>Yönlendiriliyorsunuz...</p>
-      <p><a href="./arac_egim_guvenlik_sistemi_v2.html">Projeyi açmak için tıklayın</a></p>
+      <p>Projeyi doğrudan açmak için aşağıdaki butona tıklayabilirsiniz.</p>
+      <a class="btn" href="./arac_egim_guvenlik_sistemi_v2.html">Projeyi Aç</a>
     </div>
   </body>
 </html>
